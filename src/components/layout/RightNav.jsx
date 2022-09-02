@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Link } from 'react-scroll'
 
-import H5 from '../../typograph/H5'
+import H6 from '../../typograph/H6'
 
 const StyledUl = styled.ul`
   width: 50%;
@@ -18,27 +18,27 @@ const RightNav = () => {
     <StyledUl>
       <li>
         <Link to="home" smooth={true} offset={0} duration={800}>
-          <H5>Home |</H5>
+          <H6>Home</H6>
         </Link>
       </li>
       <li>
         <Link to="home" smooth={true} offset={0} duration={800}>
-          <H5>About |</H5>
+          <H6>About</H6>
         </Link>
       </li>
       <li>
         <Link to="home" smooth={true} offset={0} duration={800}>
-          <H5>Portfolio |</H5>
+          <H6>Portfolio</H6>
         </Link>
       </li>
       <li>
         <Link to="home" smooth={true} offset={0} duration={800}>
-          <H5>Education |</H5>
+          <H6>Education</H6>
         </Link>
       </li>
       <li>
         <Link to="home" smooth={true} offset={0} duration={800}>
-          <H5>Contact |</H5>
+          <H6>Contact</H6>
         </Link>
       </li>
     </StyledUl>
