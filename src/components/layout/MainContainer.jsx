@@ -50,7 +50,7 @@ const StyledBrunoImage = styled.div`
   display: flex;
   justify-content: center;
 
-  @media (max-width: 560px) {
+  @media (max-width: 540px) {
     display: none;
   }
 `
