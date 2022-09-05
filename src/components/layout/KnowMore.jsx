@@ -17,12 +17,12 @@ const MainStyledContainer = styled.div`
 
 const LeftContainer = styled.div`
   width: 50%;
-  height: 85vh;
+  height: 15vh;
   background-color: ${(props) => props.theme.background};
 
   H1 {
-    margin-top: 40vh;
-    padding-left: 5vh;
+    display: flex;
+    justify-content: flex-end;
   }
 `
 
@@ -31,35 +31,27 @@ const StyledImage = styled.div`
   justify-content: center;
   align-items: center;
   position: absolute;
+  margin-top: 3vh;
 `
 
 const RightContainer = styled.div`
   width: 50%;
-  height: 85vh;
+  height: 15vh;
   background-color: ${(props) => props.theme.primary};
-
-  H2 {
-    margin-top: 40vh;
-    padding-left: 60vh;
-  }
 `
 export default function MainContainer() {
   return (
     <>
       <MainStyledContainer>
         <LeftContainer>
-          <H1>
-            Web<br></br>Developer
-          </H1>
+          <H1>Know</H1>
         </LeftContainer>
-        <StyledImage>
-          <IconImages imageName="Bruno" type="svg" />
-        </StyledImage>
         <RightContainer>
-          <H2>
-            Passionate <br></br> Learner
-          </H2>
+          <H2>more!</H2>
         </RightContainer>
+        <StyledImage>
+          <IconImages imageName="ArrowDown" type="svg" />
+        </StyledImage>
       </MainStyledContainer>
     </>
   )
