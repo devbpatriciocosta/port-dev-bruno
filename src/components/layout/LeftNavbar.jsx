@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import H5 from '../../typograph/H5'
+import H6 from '../../typograph/H6'
 
 const StyledUl = styled.ul`
   width: 50%;
@@ -14,7 +14,7 @@ const LeftNav = () => {
   return (
     <StyledUl>
       <li>
-        <H5>Bruno Patrício - Web Dev</H5>
+        <H6>Bruno Patrício - Web Dev</H6>
       </li>
     </StyledUl>
   )

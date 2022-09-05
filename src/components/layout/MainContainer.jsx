@@ -6,6 +6,8 @@ import H2 from '../../typograph/H2'
 
 const MainStyledContainer = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 390px) {
     display: flex;
@@ -14,72 +16,51 @@ const MainStyledContainer = styled.div`
 `
 
 const LeftContainer = styled.div`
-  background-color: ${(props) => props.theme.primary};
-  width: 60%;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  padding-top: 50vh;
+  width: 50%;
+  height: 95vh;
+  background-color: ${(props) => props.theme.background};
 
-  H2 {
+  H1 {
+    margin-top: 50vh;
     padding-left: 5vh;
   }
+`
 
-  @media (max-width: 390px) {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 20vh;
-  }
+const StyledImage = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 `
 
 const RightContainer = styled.div`
   width: 50%;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  padding-top: 50vh;
-  text-align: right;
+  height: 95vh;
+  background-color: ${(props) => props.theme.primary};
 
-  H1 {
-    padding-right: 5vh;
+  H2 {
+    margin-top: 50vh;
+    padding-left: 60vh;
   }
 `
-
-const StyledBrunoImage = styled.div`
-  display: flex;
-  justify-content: center;
-
-  @media (max-width: 540px) {
-    display: none;
-  }
-`
-
-const StyledKnowMore = styled.p`
-  color: #FEC350;
-  font-weight: bold;
-  font-size: 100px;
-  display: flex;
-  justify-content: center;
-`
-
 export default function MainContainer() {
   return (
     <>
       <MainStyledContainer>
         <LeftContainer>
-          <H2>Web</H2>
-          <H2>Developer</H2>
+          <H1>
+            Web<br></br>Developer
+          </H1>
         </LeftContainer>
-        <StyledBrunoImage>
+        <StyledImage>
           <IconImages imageName="Bruno" type="svg" />
-        </StyledBrunoImage>
+        </StyledImage>
         <RightContainer>
-          <H1>Passionate</H1>
-          <H1>Learner</H1>
+          <H2>
+            Passionate <br></br> Learner
+          </H2>
         </RightContainer>
       </MainStyledContainer>
-      <StyledKnowMore>Know more!</StyledKnowMore>
     </>
   )
 }
