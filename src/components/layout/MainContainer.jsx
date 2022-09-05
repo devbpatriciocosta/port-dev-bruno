@@ -17,7 +17,7 @@ const MainStyledContainer = styled.div`
 
 const LeftContainer = styled.div`
   width: 50%;
-  height: 85vh;
+  height: 84vh;
   background-color: ${(props) => props.theme.background};
 
   H1 {
@@ -30,12 +30,13 @@ const StyledImage = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 102px;
   position: absolute;
 `
 
 const RightContainer = styled.div`
   width: 50%;
-  height: 85vh;
+  height: 84vh;
   background-color: ${(props) => props.theme.primary};
 
   H2 {
@@ -53,7 +54,7 @@ export default function MainContainer() {
           </H1>
         </LeftContainer>
         <StyledImage>
-          <IconImages imageName="Bruno" type="svg" />
+          <IconImages imageName="BrunoTwo" type="svg" />
         </StyledImage>
         <RightContainer>
           <H2>
