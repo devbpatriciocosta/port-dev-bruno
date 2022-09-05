@@ -55,6 +55,14 @@ const StyledBrunoImage = styled.div`
   }
 `
 
+const StyledKnowMore = styled.p`
+  color: #FEC350;
+  font-weight: bold;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+`
+
 export default function MainContainer() {
   return (
     <>
@@ -71,6 +79,7 @@ export default function MainContainer() {
           <H1>Learner</H1>
         </RightContainer>
       </MainStyledContainer>
+      <StyledKnowMore>Know more!</StyledKnowMore>
     </>
   )
 }
