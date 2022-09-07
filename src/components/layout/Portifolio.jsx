@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 import IconImages from '../Icones/IconImages'
-import H1 from '../../typograph/H1'
 import H2 from '../../typograph/H2'
 import H4 from '../../typograph/H4'
 import H6 from '../../typograph/H6'
@@ -32,7 +31,9 @@ const StyledText = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
+  gap: 15px;
 `
 
 export default function Portfolio() {
@@ -46,7 +47,7 @@ export default function Portfolio() {
         <StyledText>
           <H4>Challenge do bem</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. I'm
+            Passionate developer looking for a great team to build Apps and WebPages together. Im
             always looking forward to learning new technologies and overcome new challenges. Happy
             to relocate for any great opportunity.
           </H6>
@@ -57,7 +58,7 @@ export default function Portfolio() {
         <StyledText>
           <H4>Social Dev</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. I'm
+            Passionate developer looking for a great team to build Apps and WebPages together. Im
             always looking forward to learning new technologies and overcome new challenges. Happy
             to relocate for any great opportunity.
           </H6>
@@ -68,7 +69,7 @@ export default function Portfolio() {
         <StyledText>
           <H4>Tik Tak Toe</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. I'm
+            Passionate developer looking for a great team to build Apps and WebPages together. Im
             always looking forward to learning new technologies and overcome new challenges. Happy
             to relocate for any great opportunity.
           </H6>
@@ -79,7 +80,7 @@ export default function Portfolio() {
         <StyledText>
           <H4>To Do List</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. I'm
+            Passionate developer looking for a great team to build Apps and WebPages together. Im
             always looking forward to learning new technologies and overcome new challenges. Happy
             to relocate for any great opportunity.
           </H6>
@@ -90,7 +91,7 @@ export default function Portfolio() {
         <StyledText>
           <H4>Currency Enchange for non-conventional currencies</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. I'm
+            Passionate developer looking for a great team to build Apps and WebPages together. Im
             always looking forward to learning new technologies and overcome new challenges. Happy
             to relocate for any great opportunity.
           </H6>

@@ -8,6 +8,7 @@ const StyledNavbar = styled.nav`
   height: 80px;
   position: fixed;
   display: flex;
+  backdrop-filter: blur(14px);
 `
 
 export default function Navbar() {
