@@ -4,6 +4,7 @@ import LineBar from '../src/components/layout/LineBar'
 import KnowMore from '../src/components/layout/KnowMore'
 import About from '../src/components/layout/About'
 import Portfolio from '../src/components/layout/Portifolio'
+import Education from '../src/components/layout/Education'
 
 export default function HomePage() {
   return (
@@ -15,6 +16,8 @@ export default function HomePage() {
       <About />
       <LineBar />
       <Portfolio />
+      <LineBar />
+      <Education />
     </>
   )
 }
