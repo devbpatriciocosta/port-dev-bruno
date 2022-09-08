@@ -47,9 +47,10 @@ export default function Portfolio() {
         <StyledText>
           <H4>Challenge do bem</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. Im
-            always looking forward to learning new technologies and overcome new challenges. Happy
-            to relocate for any great opportunity.
+            This project was a great opportunity to build a HomePage for a non-profit organization
+            without lucrative founds with a parternship of Ruan and Adriano. It was applied ReactJS
+            knowledge and also Styled-Components. I learned more about how Git and Git Hub works on
+            todays organizations
           </H6>
         </StyledText>
       </StyledProject>
