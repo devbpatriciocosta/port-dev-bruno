@@ -34,6 +34,10 @@ const StyledText = styled.div`
   text-align: center;
   justify-content: center;
   gap: 15px;
+
+  H6 {
+    width: 45rem;
+  }
 `
 
 export default function Portfolio() {
@@ -50,7 +54,8 @@ export default function Portfolio() {
             This project was a great opportunity to build a HomePage for a non-profit organization
             without lucrative founds with a parternship of Ruan and Adriano. It was applied ReactJS
             knowledge and also Styled-Components. I learned more about how Git and Git Hub works on
-            todays organizations
+            todays organizations. Still need to implement the back end to register Users and show
+            then how they are going through the monthly exercise.
           </H6>
         </StyledText>
       </StyledProject>
