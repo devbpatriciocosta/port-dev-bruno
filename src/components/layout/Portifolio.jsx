@@ -64,9 +64,8 @@ export default function Portfolio() {
         <StyledText>
           <H4>Social Dev</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. Im
-            always looking forward to learning new technologies and overcome new challenges. Happy
-            to relocate for any great opportunity.
+            Did ever heard about a Social Network opened to any dev to say whatever he wants? Share
+            information? Share the lattest news about the TECH world? YOU FIND IT ALL HERE! This project was designed with SejaDev Course using React JS + Styled-Components
           </H6>
         </StyledText>
       </StyledProject>
