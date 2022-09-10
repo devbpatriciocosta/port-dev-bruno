@@ -75,9 +75,10 @@ export default function Portfolio() {
         <StyledText>
           <H4>Tik Tak Toe</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. Im
-            always looking forward to learning new technologies and overcome new challenges. Happy
-            to relocate for any great opportunity.
+            Who never thougth about develop your own game? So, that's was a start to me! This a Tik
+            tak toe game, or in Brazil, Jogo da Velha (Old Woman Game haha). It was build using
+            react reusing through props and children components as we use many different icons to
+            build the game. Also, it was used SASS!
           </H6>
         </StyledText>
       </StyledProject>
