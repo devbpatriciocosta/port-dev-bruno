@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 import H1 from '../../typograph/H1'
+import H4 from '../../typograph/H4'
+import H6 from '../../typograph/H6'
 
 const StyledEducation = styled.div`
   height: 100vh;
