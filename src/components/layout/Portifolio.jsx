@@ -65,7 +65,8 @@ export default function Portfolio() {
           <H4>Social Dev</H4>
           <H6>
             Did ever heard about a Social Network opened to any dev to say whatever he wants? Share
-            information? Share the lattest news about the TECH world? YOU FIND IT ALL HERE! This project was designed with SejaDev Course using React JS + Styled-Components
+            information? Share the lattest news about the TECH world? YOU FIND IT ALL HERE! This
+            project was designed with SejaDev Course using React JS + Styled-Components
           </H6>
         </StyledText>
       </StyledProject>
