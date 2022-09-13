@@ -98,9 +98,10 @@ export default function Portfolio() {
         <StyledText>
           <H4>Currency Enchange for non-conventional currencies</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. Im
-            always looking forward to learning new technologies and overcome new challenges. Happy
-            to relocate for any great opportunity.
+            As a person and human being, I've always curious and passionate to learn new things.
+            Thus, as all changing of carrer is extremmelly challanging, I decide to design my real
+            first projet using only JavaScript, HTML and CSS. This project was very important to me
+            because it was my first of all!
           </H6>
         </StyledText>
       </StyledProject>
