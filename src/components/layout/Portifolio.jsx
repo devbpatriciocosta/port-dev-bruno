@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styled from 'styled-components'
 
 import IconImages from '../Icones/IconImages'
@@ -87,9 +88,8 @@ export default function Portfolio() {
         <StyledText>
           <H4>To Do List</H4>
           <H6>
-            Passionate developer looking for a great team to build Apps and WebPages together. Im
-            always looking forward to learning new technologies and overcome new challenges. Happy
-            to relocate for any great opportunity.
+            It was my first SOLO PROJECT using REACT JS. It was just time do experimental things and
+            put in the world what I have learned
           </H6>
         </StyledText>
       </StyledProject>
