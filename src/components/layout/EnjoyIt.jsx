@@ -4,7 +4,7 @@ import H2 from '../../typograph/H2'
 import H5 from '../../typograph/H5'
 
 const StyledEnjoyIt = styled.div`
-  height: 90vh;
+  height: 100vh;
   background-color: ${(props) => props.theme.primary};
 `
 
@@ -12,25 +12,27 @@ const StyledEnjoyItTitle = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 `
 
 const StyledDivInput = styled.div`
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
 `
+
 const StyledMessageInput = styled.input`
   border-radius: 20px;
   border-style: none;
-  width: 40rem;
-  height: 10rem;
-  text-align: left;
-  font-weight: 700;
+  width: 30rem;
+  height: 5rem;
+  font-weight: bold;
   font-size: 12px;
-  line-height: 15px;
   background-color: #d1d1d1;
+  text-align: center;
 `
 
 export default function EnjoyIt() {
@@ -41,7 +43,7 @@ export default function EnjoyIt() {
         <H5>Consider leave a message to me!</H5>
       </StyledEnjoyItTitle>
       <StyledDivInput>
-        <StyledMessageInput placeholder="Write your message here!"></StyledMessageInput>
+        <StyledMessageInput placeholder="Write your message here!" type="text" />
       </StyledDivInput>
     </StyledEnjoyIt>
   )
