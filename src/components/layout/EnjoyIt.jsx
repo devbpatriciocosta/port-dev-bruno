@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import H2 from '../../typograph/H2'
 import H5 from '../../typograph/H5'
 import Button from '../buttons/Button'
+import Input from '../inputs/Input'
 
 const StyledEnjoyIt = styled.div`
   height: 100vh;
@@ -15,25 +16,13 @@ const StyledEnjoyItTitle = styled.div`
   flex-direction: column;
   gap: 10px;
   padding-top: 10vh;
-  padding-bottom: 5vh;
+  padding-bottom: 3vh;
 `
 
 const StyledDivInput = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 3rem;
-`
-
-const StyledMessageInput = styled.input`
-  border-radius: 20px;
-  border-style: none;
-  width: 30rem;
-  height: 5rem;
-  font-weight: bold;
-  font-size: 12px;
-  background-color: #d1d1d1;
-  text-align: center;
 `
 
 export default function EnjoyIt() {
@@ -44,7 +33,7 @@ export default function EnjoyIt() {
         <H5>Consider leave a message to me!</H5>
       </StyledEnjoyItTitle>
       <StyledDivInput>
-        <StyledMessageInput placeholder="Write your message here!" type="text" />
+        <Input placeholder="Write your message here!" type="text" />
         <Button>Submit</Button>
       </StyledDivInput>
     </StyledEnjoyIt>
