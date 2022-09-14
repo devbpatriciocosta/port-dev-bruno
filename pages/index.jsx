@@ -24,6 +24,7 @@ export default function HomePage() {
       <EnjoyIt />
       <LineBar />
       <Contact />
+      <LineBar />
     </>
   )
 }

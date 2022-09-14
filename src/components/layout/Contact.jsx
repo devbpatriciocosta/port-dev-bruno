@@ -6,7 +6,7 @@ import H6 from '../../typograph/H6'
 import IconImages from '../Icones/IconImages'
 
 const StyledContact = styled.div`
-  height: 60vh;
+  height: 50vh;
 `
 
 const StyledContactTitle = styled.div`
