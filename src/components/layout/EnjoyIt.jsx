@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 import H2 from '../../typograph/H2'
 import H5 from '../../typograph/H5'
+import Button from '../buttons/Button'
 
 const StyledEnjoyIt = styled.div`
   height: 100vh;
@@ -44,6 +45,7 @@ export default function EnjoyIt() {
       </StyledEnjoyItTitle>
       <StyledDivInput>
         <StyledMessageInput placeholder="Write your message here!" type="text" />
+        <Button>Submit</Button>
       </StyledDivInput>
     </StyledEnjoyIt>
   )
