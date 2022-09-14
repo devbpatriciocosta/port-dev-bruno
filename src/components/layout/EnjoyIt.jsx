@@ -25,6 +25,22 @@ const StyledDivInput = styled.div`
   flex-direction: column;
 `
 
+const StyledDivInfo = styled.div`
+  display: flex;
+  gap: 1rem;
+`
+
+const StyledInputInfo = styled.input`
+  padding: 10px 20px;
+  display: flex;
+  margin: 20px;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #d1d1d1;
+`
+
 export default function EnjoyIt() {
   return (
     <StyledEnjoyIt>
@@ -34,6 +50,10 @@ export default function EnjoyIt() {
       </StyledEnjoyItTitle>
       <StyledDivInput>
         <Input placeholder="Write your message here!" type="text" />
+        <StyledDivInfo>
+          <StyledInputInfo placeholder="E-mail" type="email" />
+          <StyledInputInfo placeholder="Name" type="text" />
+        </StyledDivInfo>
         <Button>Submit</Button>
       </StyledDivInput>
     </StyledEnjoyIt>

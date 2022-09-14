@@ -21,6 +21,7 @@ export default function HomePage() {
       <Education />
       <LineBar />
       <EnjoyIt />
+      <LineBar />
     </>
   )
 }
