@@ -7,6 +7,7 @@ import Portfolio from '../src/components/layout/Portifolio'
 import Education from '../src/components/layout/Education'
 import EnjoyIt from '../src/components/layout/EnjoyIt'
 import Contact from '../src/components/layout/Contact'
+import Footer from '../src/components/layout/Footer'
 
 export default function HomePage() {
   return (
@@ -25,6 +26,7 @@ export default function HomePage() {
       <LineBar />
       <Contact />
       <LineBar />
+      <Footer />
     </>
   )
 }
