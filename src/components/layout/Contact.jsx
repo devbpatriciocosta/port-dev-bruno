@@ -16,9 +16,13 @@ const StyledContactTitle = styled.div`
   gap: 10px;
   padding-top: 10vh;
   padding-bottom: 8vh;
+
+  H1 {
+    text-decoration: underline;
+  }
 `
 
-const StyledGit = styled.div`
+const StyledContactLink = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,30 +43,36 @@ export default function Contact() {
         <StyledContactTitle>
           <H1>Contact</H1>
         </StyledContactTitle>
-        <StyledGit>
-          <IconImages imageName="GitIcon" type="svg" />
+        <StyledContactLink>
+          <a href="https://github.com/devbpatriciocosta" target="_blank" rel="noreferrer">
+            <IconImages imageName="GitIcon" type="svg" />
+          </a>
           <H6>
             <a href="https://github.com/devbpatriciocosta" target="_blank" rel="noreferrer">
               @devbpatriciocosta
             </a>
           </H6>
-        </StyledGit>
-        <StyledGit>
-          <IconImages imageName="MailIcon" type="svg" />
+        </StyledContactLink>
+        <StyledContactLink>
+          <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">
+            <IconImages imageName="MailIcon" type="svg" />
+          </a>
           <H6>
             <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noreferrer">
               @bpatriciocosta@gmail.com
             </a>
           </H6>
-        </StyledGit>
-        <StyledGit>
-          <IconImages imageName="LinkedinIcon" type="svg" />
+        </StyledContactLink>
+        <StyledContactLink>
+          <a href="https://www.linkedin.com/in/brunopatricioc/" target="_blank" rel="noreferrer">
+            <IconImages imageName="LinkedinIcon" type="svg" />
+          </a>
           <H6>
             <a href="https://www.linkedin.com/in/brunopatricioc/" target="_blank" rel="noreferrer">
               linkedin.com/brunopatricioc/
             </a>
           </H6>
-        </StyledGit>
+        </StyledContactLink>
       </StyledContact>
     </>
   )

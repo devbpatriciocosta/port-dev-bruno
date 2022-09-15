@@ -17,6 +17,10 @@ const StyledEnjoyItTitle = styled.div`
   gap: 10px;
   padding-top: 10vh;
   padding-bottom: 3vh;
+
+  H2 {
+    text-decoration: underline;
+  }
 `
 
 const StyledDivInput = styled.div`

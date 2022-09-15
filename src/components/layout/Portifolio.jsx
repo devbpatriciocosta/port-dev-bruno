@@ -16,6 +16,10 @@ const StyledTitle = styled.div`
   display: flex;
   justify-content: center;
   padding-top: 10vh;
+
+  H2 {
+    text-decoration: underline;
+  }
 `
 
 const StyledProject = styled.div`

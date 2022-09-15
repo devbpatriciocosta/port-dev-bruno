@@ -12,6 +12,10 @@ const StyledEducationTitle = styled.div`
   justify-content: center;
   padding-top: 10vh;
   padding-bottom: 10vh;
+
+  H1 {
+    text-decoration: underline;
+  }
 `
 
 const StyledEducationText = styled.div`

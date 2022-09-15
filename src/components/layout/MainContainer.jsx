@@ -23,6 +23,7 @@ const LeftContainer = styled.div`
   H1 {
     margin-top: 40vh;
     padding-left: 5vh;
+    text-decoration: underline;
   }
 `
 
@@ -42,6 +43,7 @@ const RightContainer = styled.div`
   H2 {
     margin-top: 40vh;
     padding-left: 60vh;
+    text-decoration: underline;
   }
 `
 export default function MainContainer() {

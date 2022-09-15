@@ -28,6 +28,10 @@ const StyledContainer = styled.div`
   background-color: ${(props) => props.theme.background};
   padding: 30px 50px;
 
+  H1 {
+    text-decoration: underline;
+  }
+
   H6 {
     font-weight: lighter;
   }
