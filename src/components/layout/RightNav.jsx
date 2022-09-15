@@ -11,6 +11,7 @@ const StyledUl = styled.ul`
   align-items: center;
   justify-content: right;
   gap: 20px;
+  background-color: ${(props) => props.theme.primary};
 `
 
 const RightNav = () => {
