@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-scroll'
 
 import IconImages from '../Icones/IconImages'
 import H1 from '../../typograph/H1'
@@ -32,6 +33,7 @@ const StyledImage = styled.div`
   align-items: center;
   position: absolute;
   margin-top: 3vh;
+  cursor: pointer;
 `
 
 const RightContainer = styled.div`
@@ -50,7 +52,9 @@ export default function MainContainer() {
           <H2>more!</H2>
         </RightContainer>
         <StyledImage>
-          <IconImages imageName="ArrowDown" type="svg" />
+          <Link to="about" smooth={true} offset={0} duration={800}>
+            <IconImages imageName="ArrowDown" type="svg" />
+          </Link>
         </StyledImage>
       </MainStyledContainer>
     </>
