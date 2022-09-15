@@ -17,7 +17,7 @@ const MainStyledContainer = styled.div`
 
 const LeftContainer = styled.div`
   width: 50%;
-  height: 84vh;
+  height: 80vh;
   background-color: ${(props) => props.theme.background};
 
   H1 {
@@ -36,7 +36,7 @@ const StyledImage = styled.div`
 
 const RightContainer = styled.div`
   width: 50%;
-  height: 84vh;
+  height: 80vh;
   background-color: ${(props) => props.theme.primary};
 
   H2 {

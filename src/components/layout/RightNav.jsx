@@ -15,6 +15,23 @@ const StyledUl = styled.ul`
 
   li {
     cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+  }
+
+  li:after {
+    content: '';
+    position: absolute;
+    background-color: ${(props) => props.theme.background};
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+
+  li:hover:after {
+    width: 100%;
   }
 `
 
