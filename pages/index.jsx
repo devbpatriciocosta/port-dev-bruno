@@ -13,18 +13,28 @@ export default function HomePage() {
   return (
     <>
       <Navbar />
-      <MainContainer />
+      <div id="home">
+        <MainContainer />
+      </div>
       <KnowMore />
       <LineBar />
-      <About />
+      <div id="about">
+        <About />
+      </div>
       <LineBar />
-      <Portfolio />
+      <div id="port">
+        <Portfolio />
+      </div>
       <LineBar />
-      <Education />
+      <div id="education">
+        <Education />
+      </div>
       <LineBar />
       <EnjoyIt />
       <LineBar />
-      <Contact />
+      <div id="contact">
+        <Contact />
+      </div>
       <LineBar />
       <Footer />
     </>

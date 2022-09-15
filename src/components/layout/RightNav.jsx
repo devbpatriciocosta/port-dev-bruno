@@ -12,6 +12,10 @@ const StyledUl = styled.ul`
   justify-content: right;
   gap: 20px;
   background-color: ${(props) => props.theme.primary};
+
+  li {
+    cursor: pointer;
+  }
 `
 
 const RightNav = () => {
@@ -23,22 +27,22 @@ const RightNav = () => {
         </Link>
       </li>
       <li>
-        <Link to="home" smooth={true} offset={0} duration={800}>
+        <Link to="about" smooth={true} offset={0} duration={800}>
           <H5>About</H5>
         </Link>
       </li>
       <li>
-        <Link to="home" smooth={true} offset={0} duration={800}>
+        <Link to="port" smooth={true} offset={0} duration={800}>
           <H5>Portfolio</H5>
         </Link>
       </li>
       <li>
-        <Link to="home" smooth={true} offset={0} duration={800}>
+        <Link to="education" smooth={true} offset={0} duration={800}>
           <H5>Education</H5>
         </Link>
       </li>
       <li>
-        <Link to="home" smooth={true} offset={0} duration={800}>
+        <Link to="contact" smooth={true} offset={0} duration={2000}>
           <H5>Contact</H5>
         </Link>
       </li>
