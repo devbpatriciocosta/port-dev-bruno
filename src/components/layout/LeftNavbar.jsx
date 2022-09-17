@@ -8,6 +8,7 @@ const StyledUl = styled.ul`
   list-style: none;
   display: flex;
   align-items: center;
+  background-color: ${(props) => props.theme.background};
 
   li {
     cursor: pointer;

@@ -7,6 +7,7 @@ const StyledNavbar = styled.nav`
   width: 100%;
   height: 70px;
   display: flex;
+  position: fixed;
 `
 
 export default function Navbar() {
