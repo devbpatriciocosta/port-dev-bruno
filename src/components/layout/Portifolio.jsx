@@ -103,7 +103,7 @@ export default function Portfolio() {
         <StyledText>
           <H4>Currency Enchange for non-conventional currencies</H4>
           <H6>
-            As a person and human being, I've always curious and passionate to learn new things.
+            As a person and human being, I've always curious and passionate to learn new things and do new things
             Thus, as all changing of carrer is extremmelly challanging, I decide to design my real
             first projet using only JavaScript, HTML and CSS. This project was very important to me
             because it was my first of all!
