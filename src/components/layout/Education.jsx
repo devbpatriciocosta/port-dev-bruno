@@ -49,7 +49,7 @@ export default function Education() {
           <H5>
             Web Developer certification in: <br />
             JavaScript, HTML5, CSS3, ReactJS, NodeJS, <br /> NextJS, SASS/Styled-Components,
-            SQL/NO-SQL
+            SQL/NO-SQL, mongoDB
           </H5>
         </StyledEducationText>
       </StyledEducationContainer>
