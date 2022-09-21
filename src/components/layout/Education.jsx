@@ -48,7 +48,8 @@ export default function Education() {
         <StyledEducationText>
           <H5>
             Web Developer certification in: <br />
-            JavaScript, HTML5, CSS3, ReactJS, NodeJS, <br /> NextJS, SASS/Styled-Components, SQL/NO-SQL
+            JavaScript, HTML5, CSS3, ReactJS, NodeJS, <br /> NextJS, SASS/Styled-Components,
+            SQL/NO-SQL
           </H5>
         </StyledEducationText>
       </StyledEducationContainer>
