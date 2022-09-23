@@ -56,7 +56,7 @@ export default function Education() {
 
       <StyledEducationContainer>
         <StyledEducationText>
-          <H5>Ph.D. in Food Engineering focused in Biodegradadble Food Packaging</H5>
+          <H5>Ph.D. in Food Engineering focused in Biodegradadble Food Packaging and non-conventional technologies</H5>
         </StyledEducationText>
       </StyledEducationContainer>
 
