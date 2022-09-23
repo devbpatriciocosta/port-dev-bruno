@@ -8,6 +8,13 @@ const StyledNavbar = styled.nav`
   height: 70px;
   display: flex;
   position: fixed;
+
+  @media (max-width: 460px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+  }
 `
 
 export default function Navbar() {
