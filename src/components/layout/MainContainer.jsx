@@ -9,9 +9,11 @@ const MainStyledContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 390px) {
+  @media (max-width: 760px) {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `
 
@@ -25,6 +27,19 @@ const LeftContainer = styled.div`
     padding-left: 5vh;
     text-decoration: underline;
   }
+
+  @media (max-width: 760px) {
+    width: 100%;
+    height: 40vh;
+
+    H1 {
+      margin-top: 15vh;
+      padding-left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 `
 
 const StyledImage = styled.div`
@@ -33,6 +48,10 @@ const StyledImage = styled.div`
   align-items: center;
   padding-left: 102px;
   position: absolute;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `
 
 const RightContainer = styled.div`
@@ -44,6 +63,19 @@ const RightContainer = styled.div`
     margin-top: 40vh;
     padding-left: 60vh;
     text-decoration: underline;
+  }
+
+  @media (max-width: 760px) {
+    width: 100%;
+    height: 40vh;
+
+    H2 {
+      margin-top: 10vh;
+      padding-left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 `
 export default function MainContainer() {
