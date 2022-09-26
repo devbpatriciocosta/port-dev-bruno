@@ -33,6 +33,14 @@ const StyledUl = styled.ul`
   li:hover:after {
     width: 100%;
   }
+
+  @media (max-width: 460px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+  }
 `
 
 const RightNav = () => {

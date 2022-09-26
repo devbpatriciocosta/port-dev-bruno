@@ -30,6 +30,14 @@ const StyledUl = styled.ul`
   li:hover:after {
     width: 100%;
   }
+
+  @media (max-width: 460px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+  }
 `
 
 const LeftNav = () => {
