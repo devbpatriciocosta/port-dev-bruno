@@ -9,7 +9,7 @@ const MainStyledContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 760px) {
+  @media (max-width: 1640px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@ const LeftContainer = styled.div`
     text-decoration: underline;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 1640px) {
     width: 100%;
     height: 40vh;
 
@@ -49,7 +49,7 @@ const StyledImage = styled.div`
   padding-left: 102px;
   position: absolute;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1640px) {
     display: none;
   }
 `
@@ -65,7 +65,7 @@ const RightContainer = styled.div`
     text-decoration: underline;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 1640px) {
     width: 100%;
     height: 40vh;
 
