@@ -8,8 +8,6 @@ import H6 from '../../typograph/H6'
 
 const StyledPortfolio = styled.div`
   background-color: ${(props) => props.theme.primary};
-  width: 100%;
-  height: auto;
 `
 
 const StyledTitle = styled.div`
@@ -27,6 +25,12 @@ const StyledProject = styled.div`
   display: flex;
   justify-content: center;
   gap: 10rem;
+
+  @media (max-width: 1380px) {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
 `
 
 const StyledText = styled.div`
@@ -41,8 +45,12 @@ const StyledText = styled.div`
   gap: 15px;
   margin-bottom: 1vh;
 
-  H6 {
-    width: 45rem;
+  @media (max-width: 1380px) {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: auto;
+    height: auto;
   }
 `
 
