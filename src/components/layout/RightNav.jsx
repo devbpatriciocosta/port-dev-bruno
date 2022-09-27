@@ -34,12 +34,12 @@ const StyledUl = styled.ul`
     width: 100%;
   }
 
-  @media (max-width: 460px) {
+  @media (max-width: 810px) {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 4rem;
     width: 100%;
+    padding-right: 0;
   }
 `
 

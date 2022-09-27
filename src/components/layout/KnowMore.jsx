@@ -10,7 +10,7 @@ const MainStyledContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 760px) {
+  @media (max-width: 1640px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +28,7 @@ const LeftContainer = styled.div`
     justify-content: flex-end;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 1640px) {
     width: 100%;
     height: 20vh;
 
@@ -50,7 +50,7 @@ const StyledImage = styled.div`
   margin-top: 3vh;
   cursor: pointer;
 
-  @media (max-width: 760px) {
+  @media (max-width: 1640px) {
     margin-top: 35vh;
   }
 `
@@ -60,7 +60,7 @@ const RightContainer = styled.div`
   height: 15vh;
   background-color: ${(props) => props.theme.primary};
 
-  @media (max-width: 760px) {
+  @media (max-width: 1640px) {
     width: 100%;
     height: 18vh;
 

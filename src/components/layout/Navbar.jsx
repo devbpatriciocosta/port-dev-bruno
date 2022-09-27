@@ -9,7 +9,7 @@ const StyledNavbar = styled.nav`
   display: flex;
   position: fixed;
 
-  @media (max-width: 460px) {
+  @media (max-width: 810px) {
     display: flex;
     flex-direction: column;
     align-items: center;
