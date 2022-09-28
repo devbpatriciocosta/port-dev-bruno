@@ -38,6 +38,7 @@ const StyledUl = styled.ul`
     align-items: center;
     height: 4rem;
     width: 100%;
+    padding-left: 0;
   }
 `
 

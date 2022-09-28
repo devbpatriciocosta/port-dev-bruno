@@ -40,6 +40,7 @@ const StyledUl = styled.ul`
     height: 4rem;
     width: 100%;
     padding-right: 0;
+    gap: 10px;
   }
 `
 
