@@ -31,13 +31,17 @@ const StyledDivInput = styled.div`
 
 const StyledDivInfo = styled.div`
   display: flex;
-  gap: 1rem;
+
+  @media (max-width: 490px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 `
 
 const StyledInputInfo = styled.input`
   padding: 10px 20px;
+  margin: 12px;
   display: flex;
-  margin: 20px;
   border-radius: 10px;
   border-style: none;
   font-weight: bold;

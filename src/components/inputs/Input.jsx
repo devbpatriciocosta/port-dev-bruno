@@ -12,6 +12,10 @@ const StyledInput = styled.input`
   font-weight: bold;
   font-size: 12px;
   background-color: #d1d1d1;
+
+  @media (max-width: 490px) {
+    width: auto;
+  }
 `
 
 const Input = forwardRef((props, ref) => {
