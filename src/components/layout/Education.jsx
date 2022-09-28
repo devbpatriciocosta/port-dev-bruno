@@ -27,14 +27,12 @@ const StyledEducationText = styled.div`
   background-color: #fec350;
   height: 6rem;
   width: 40rem;
-  margin: 2rem 39rem;
+  margin-top: 30px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
   text-align: center;
-  gap: 15px;
 `
 
 export default function Education() {
