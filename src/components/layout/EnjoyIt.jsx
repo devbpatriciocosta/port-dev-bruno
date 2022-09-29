@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { useState } from 'react'
 
 import H2 from '../../typograph/H2'
 import H5 from '../../typograph/H5'
@@ -23,7 +24,7 @@ const StyledEnjoyItTitle = styled.div`
   }
 `
 
-const StyledDivInput = styled.div`
+const StyledDivForm = styled.form`
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -50,20 +51,47 @@ const StyledInputInfo = styled.input`
 `
 
 export default function EnjoyIt() {
+  const [message, setMessage] = useState('')
+  const [email, setEmail] = useState('')
+  const [name, setName] = useState('')
+
+  const handleComment = (event) => {
+    event.preventDefault()
+    console.log(message, email, name)
+  }
+
   return (
     <StyledEnjoyIt>
       <StyledEnjoyItTitle>
         <H2>Enjoy It?</H2>
         <H5>Consider leave a message to me!</H5>
       </StyledEnjoyItTitle>
-      <StyledDivInput>
-        <Input placeholder="Write your message here!" type="text" />
+      <StyledDivForm onSubmit={handleComment}>
+        <Input
+          placeholder="Write your message here!"
+          type="text"
+          required
+          value={message}
+          onChange={(event) => setMessage(event.target.value)}
+        />
         <StyledDivInfo>
-          <StyledInputInfo placeholder="E-mail" type="email" />
-          <StyledInputInfo placeholder="Name" type="text" />
+          <StyledInputInfo
+            placeholder="E-mail"
+            type="email"
+            required
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
+          />
+          <StyledInputInfo
+            placeholder="Name"
+            type="text"
+            required
+            value={name}
+            onChange={(event) => setName(event.target.value)}
+          />
         </StyledDivInfo>
-        <Button>Submit</Button>
-      </StyledDivInput>
+        <Button type="submit">Submit</Button>
+      </StyledDivForm>
     </StyledEnjoyIt>
   )
 }
