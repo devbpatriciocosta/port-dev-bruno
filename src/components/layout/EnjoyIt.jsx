@@ -5,9 +5,10 @@ import H2 from '../../typograph/H2'
 import H5 from '../../typograph/H5'
 import Button from '../buttons/Button'
 import Input from '../inputs/Input'
+import Comments from '../posts/Comments'
 
 const StyledEnjoyIt = styled.div`
-  height: 100vh;
+  height: 140vh;
   background-color: ${(props) => props.theme.primary};
 `
 
@@ -47,7 +48,27 @@ const StyledInputInfo = styled.input`
   border-style: none;
   font-weight: bold;
   font-size: 12px;
-  background-color: #d1d1d1;
+  background-color: ${(props) => props.theme.postBackgroundColor};
+`
+
+const StyledRecentComments = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+
+  H5 {
+    font-size: 28px;
+    text-decoration: underline;
+  }
+`
+
+const CommentsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 `
 
 export default function EnjoyIt() {
@@ -91,6 +112,16 @@ export default function EnjoyIt() {
           />
         </StyledDivInfo>
         <Button type="submit">Submit</Button>
+      </StyledDivForm>
+      <StyledRecentComments>
+        <H5>Recent comments</H5>
+      </StyledRecentComments>
+      <StyledDivForm>
+        <CommentsContainer>
+          <Comments />
+          <Comments />
+          <Comments />
+        </CommentsContainer>
       </StyledDivForm>
     </StyledEnjoyIt>
   )
