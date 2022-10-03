@@ -9,7 +9,7 @@ import EnjoyIt from '../src/components/layout/EnjoyIt'
 import Contact from '../src/components/layout/Contact'
 import Footer from '../src/components/layout/Footer'
 
-export default function HomePage() {
+function HomePage() {
   return (
     <>
       <Navbar />
@@ -40,3 +40,13 @@ export default function HomePage() {
     </>
   )
 }
+
+export const getServerSideProps = () => {
+  console.log('Entrou aqui')
+
+  return {
+    props: {}
+  }
+}
+
+export default HomePage
