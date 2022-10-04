@@ -1,5 +1,10 @@
-export const nameUser = (body) => {
-  console.log('Name User')
-  console.log(body)
-  return true
+import User from './user.model'
+
+export const nameUser = async (body) => {
+  const user = {
+    ...body,
+    name: body.name
+  }
+  const dbUser = await User.create(user)
+  return dbUser
 }
