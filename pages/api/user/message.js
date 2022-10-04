@@ -1,5 +1,5 @@
-import connect from 'next-connect'
 import Joi from 'joi'
+import createHandler from '../../../lib/middlewares/nextConnect'
 
 import validate from '../../../lib/middlewares/validation'
 
@@ -10,14 +10,11 @@ const postSchema = Joi.object({
   email: Joi.string().email().required().max(100)
 })
 
-const message = connect().post(
-  validate({
-    body: postSchema
-  }),
-  (req, res) => {
-    nameUser(req.body)
-    res.status(200).json({ teste: 'ok' })
-  }
-)
+const message = createHandler()
+
+message.post(validate({ body: postSchema }), (req, res) => {
+  nameUser(req.body)
+  res.status(200).json({ teste: 'ok' })
+})
 
 export default message
