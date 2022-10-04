@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Link from 'next/link'
 
 import H2 from '../../typograph/H2'
 import H5 from '../../typograph/H5'
@@ -36,7 +37,9 @@ export default function EnjoyIt() {
         <H5>Consider leave a message to me!</H5>
       </StyledEnjoyItTitle>
       <StyledDivForm>
-        <Button type="submit">Click here to send your message!</Button>
+        <Button type="submit">
+          <Link href="/message">Click here to send your message!</Link>
+        </Button>
       </StyledDivForm>
     </StyledEnjoyIt>
   )
