@@ -8,6 +8,7 @@ export const createPost = async (body, user) => {
   })
 }
 
+// eslint-disable-next-line no-unused-vars
 export const getPosts = async (Limit = 10) => {
   return await Post.find()
 }
