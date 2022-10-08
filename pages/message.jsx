@@ -92,7 +92,7 @@ export default function EnjoyIt() {
         </StyledEnjoyItTitle>
         <StyledDivForm onSubmit={handleComment}>
           <Input
-            placeholder="Write your message here!"
+            placeholder="Write your message!"
             type="text"
             required
             value={message}
