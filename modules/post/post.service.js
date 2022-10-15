@@ -8,7 +8,6 @@ export const createPost = async (body, user) => {
   })
 }
 
-// eslint-disable-next-line no-unused-vars
-export const getPosts = async (Limit = 10) => {
-  return await Post.find()
+export const getPosts = async (limit = 10) => {
+  return await Post.find().populate('createdBy', 'user').sort({ createdData: -1 }).limit(limit)
 }
