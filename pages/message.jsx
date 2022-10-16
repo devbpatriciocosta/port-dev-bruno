@@ -114,7 +114,7 @@ export default function EnjoyIt() {
               onChange={(event) => setName(event.target.value)}
             />
           </StyledDivInfo>
-          <Button type="submit">Submit</Button>
+          <Button type="submit">Submit!</Button>
         </StyledDivForm>
         <StyledRecentComments>
           <H5>Recent comments</H5>
