@@ -6,4 +6,4 @@ const UserSchema = new mongoose.Schema({
   text: { type: String, required: true, maxlength: 256 }
 })
 
-export default mongoose.models.User || mongoose.model('User', UserSchema)
+export default mongoose.models.User || mongoose.model('Name', UserSchema)
