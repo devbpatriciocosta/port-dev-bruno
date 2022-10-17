@@ -8,6 +8,6 @@ export const createPost = async (body, user) => {
   })
 }
 
-export const getPosts = async (limit = 10) => {
+export const getPosts = async (limit = 5) => {
   return await Post.find().populate('createdBy', 'user').sort({ createdData: -1 }).limit(limit)
 }
