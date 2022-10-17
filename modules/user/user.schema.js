@@ -1,5 +1,5 @@
 import Joi from 'joi'
 
 export const createUserSchema = Joi.object({
-  name: Joi.string().required().max(256)
+  Name: Joi.string().required().max(256)
 })
