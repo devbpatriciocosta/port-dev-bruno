@@ -75,11 +75,11 @@ const CommentsContainer = styled.div`
 export default function EnjoyIt() {
   const [message, setMessage] = useState('')
   const [email, setEmail] = useState('')
-  const [name, setName] = useState('')
+  const [user, setUser] = useState('')
 
   const handleComment = (event) => {
     event.preventDefault()
-    console.log(message, email, name)
+    console.log(message, email, user)
   }
 
   return (
@@ -110,8 +110,8 @@ export default function EnjoyIt() {
               placeholder="Name"
               type="text"
               required
-              value={name}
-              onChange={(event) => setName(event.target.value)}
+              value={user}
+              onChange={(event) => setUser(event.target.value)}
             />
           </StyledDivInfo>
           <Button type="submit">Submit!</Button>
