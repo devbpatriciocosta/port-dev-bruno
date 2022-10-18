@@ -9,7 +9,7 @@ import { nameUser } from '../../../modules/user/user.service'
 import { ironConfig } from '../../../lib/middlewares/ironSession'
 
 const postSchema = Joi.object({
-  Name: Joi.string().required().max(50),
+  User: Joi.string().required().max(50),
   email: Joi.string().email().required().max(100),
   text: Joi.string().required().max(256)
 })
@@ -21,7 +21,7 @@ message.post(validate({ body: postSchema }), async (req, res) => {
     const message = await nameUser(req.body)
     req.session.user = {
       id: message._id,
-      user: message.Name
+      User: message.User
     }
     await req.session.save()
     res.send({ ok: true })
