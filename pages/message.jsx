@@ -1,5 +1,7 @@
 import styled from 'styled-components'
+import axios from 'axios'
 import { useState } from 'react'
+import { useEffect } from 'react'
 
 import H2 from '../src/typograph/H2'
 import H5 from '../src/typograph/H5'
@@ -81,6 +83,16 @@ export default function EnjoyIt() {
     event.preventDefault()
     console.log(message, email, user)
   }
+
+  const handlePosts = async () => {
+    console.log('Handle Post')
+    const response = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/post`)
+    console.log(response.data)
+  }
+
+  useEffect(() => {
+    handlePosts()
+  }, [])
 
   return (
     <>
